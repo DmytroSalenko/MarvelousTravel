@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SignUpViewModel.validateEmail():SignUpViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "checkEmailAvailability(email: self.emailViewModel.value!)">
+            </PersistentString>
+            <PersistentString
+               value = "emailTest.evaluate(with: self.emailViewModel.value)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.scrollToLoginDataPage(sender:):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewWillAppear(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

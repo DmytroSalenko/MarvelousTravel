@@ -1,0 +1,37 @@
+PODS:
+  - BFWControls (3.1.2)
+  - InputBarAccessoryView (4.2.2)
+  - MessageKit (3.0.0):
+    - InputBarAccessoryView (~> 4.2.2)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - BFWControls (~> 3.1)
+  - InputBarAccessoryView
+  - MessageKit
+  - Socket.IO-Client-Swift (~> 15.2.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - BFWControls
+    - InputBarAccessoryView
+    - MessageKit
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  BFWControls: 36089fea1a54c6255ea86422877f723cc7a067ff
+  InputBarAccessoryView: 2b937602598e2fab3149f37f51dd7ad795653812
+  MessageKit: e892a9ca49ebe6d82684d3a93ad84021fa23e2c6
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 812a0a88d5f57837cff2b023a5710015307c4632
+
+COCOAPODS: 1.8.4

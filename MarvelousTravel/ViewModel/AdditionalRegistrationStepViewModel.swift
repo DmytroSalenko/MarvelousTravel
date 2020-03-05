@@ -47,12 +47,14 @@ class AdditionalRegistrationStepViewModel {
             } catch {
                 self.isIconSent.value = false
             }
+        } else {
+            self.isIconSent.value = true
         }
         
         if selectedCity.value != nil {
             
+        } else {
+            self.isCityUpdated.value = true
         }
     }
-    
-    
 }

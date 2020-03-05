@@ -36,7 +36,12 @@
 		B84944B723F0B75F00A2E335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84944B623F0B75F00A2E335 /* Assets.xcassets */; };
 		B84944BA23F0B75F00A2E335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84944B823F0B75F00A2E335 /* LaunchScreen.storyboard */; };
 		B84944C723F0D83200A2E335 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84944C623F0D83200A2E335 /* LoginViewModel.swift */; };
+		B84AA55B240F3F31006D8C24 /* CityPOIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84AA55A240F3F31006D8C24 /* CityPOIController.swift */; };
+		B84AA56824109D8D006D8C24 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84AA56624109D8D006D8C24 /* CategoryCollectionViewCell.swift */; };
+		B84AA56924109D8D006D8C24 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84AA56724109D8D006D8C24 /* CategoryCollectionViewCell.xib */; };
 		B865D40224089A1E007BC4E0 /* AutocompletionSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B865D40124089A1E007BC4E0 /* AutocompletionSearchTextField.swift */; };
+		B866242B2410A9C800F16896 /* PoiOverviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86624292410A9C800F16896 /* PoiOverviewCollectionViewCell.swift */; };
+		B866242C2410A9C800F16896 /* PoiOverviewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B866242A2410A9C800F16896 /* PoiOverviewCollectionViewCell.xib */; };
 		B87BC4D424088CE300D1D430 /* AutocompleteTextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BC4D324088CE300D1D430 /* AutocompleteTextFieldViewModel.swift */; };
 		B885D7A723FEE7F200882E69 /* UserAccountDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B885D7A623FEE7F200882E69 /* UserAccountDataView.xib */; };
 		B885D7A923FEE80300882E69 /* UserAccountDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885D7A823FEE80300882E69 /* UserAccountDataView.swift */; };
@@ -78,7 +83,12 @@
 		B84944B923F0B75F00A2E335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B84944BB23F0B75F00A2E335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B84944C623F0D83200A2E335 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		B865D40124089A1E007BC4E0 /* AutocompletionSearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AutocompletionSearchTextField.swift; path = CustomElements/AutocompletionSearchTextField.swift; sourceTree = "<group>"; };
+		B84AA55A240F3F31006D8C24 /* CityPOIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPOIController.swift; sourceTree = "<group>"; };
+		B84AA56624109D8D006D8C24 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		B84AA56724109D8D006D8C24 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		B865D40124089A1E007BC4E0 /* AutocompletionSearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompletionSearchTextField.swift; sourceTree = "<group>"; };
+		B86624292410A9C800F16896 /* PoiOverviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoiOverviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		B866242A2410A9C800F16896 /* PoiOverviewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PoiOverviewCollectionViewCell.xib; sourceTree = "<group>"; };
 		B87BC4D324088CE300D1D430 /* AutocompleteTextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutocompleteTextFieldViewModel.swift; sourceTree = "<group>"; };
 		B885D7A623FEE7F200882E69 /* UserAccountDataView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserAccountDataView.xib; sourceTree = "<group>"; };
 		B885D7A823FEE80300882E69 /* UserAccountDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountDataView.swift; sourceTree = "<group>"; };
@@ -197,7 +207,6 @@
 				B885D7A523FE378400882E69 /* CustomElements */,
 				B84944B123F0B75C00A2E335 /* LoginScreenViewController.swift */,
 				B840D7D623F8A85C00138D21 /* Bindable.swift */,
-				B865D40124089A1E007BC4E0 /* AutocompletionSearchTextField.swift */,
 				B836C699240D9A83002A483D /* ChatViewController.swift */,
 				B836C69B240D9ACD002A483D /* CreateTripViewController.swift */,
 				B836C69D240D9AE0002A483D /* SocketManager.swift */,
@@ -215,6 +224,18 @@
 				B836C6682409BB40002A483D /* AdditionalRegistrationStepViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B869DAFB240F233A00D89B5F /* CityPOIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B84AA55A240F3F31006D8C24 /* CityPOIController.swift */,
+				B84AA56624109D8D006D8C24 /* CategoryCollectionViewCell.swift */,
+				B84AA56724109D8D006D8C24 /* CategoryCollectionViewCell.xib */,
+				B86624292410A9C800F16896 /* PoiOverviewCollectionViewCell.swift */,
+				B866242A2410A9C800F16896 /* PoiOverviewCollectionViewCell.xib */,
+			);
+			path = CityPOIScrollView;
 			sourceTree = "<group>";
 		};
 		B87BC4D0240886F200D1D430 /* LoginView */ = {
@@ -247,6 +268,8 @@
 		B885D7A523FE378400882E69 /* CustomElements */ = {
 			isa = PBXGroup;
 			children = (
+				B869DAFB240F233A00D89B5F /* CityPOIScrollView */,
+				B865D40124089A1E007BC4E0 /* AutocompletionSearchTextField.swift */,
 				B87BC4D22408872F00D1D430 /* ImageAndCountryView */,
 				B87BC4D1240886FD00D1D430 /* UserAccountRegisterView */,
 				B87BC4D0240886F200D1D430 /* LoginView */,
@@ -315,10 +338,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B866242C2410A9C800F16896 /* PoiOverviewCollectionViewCell.xib in Resources */,
 				B84944BA23F0B75F00A2E335 /* LaunchScreen.storyboard in Resources */,
 				B88FE439240643CF003942CB /* ImageAndCountryView.xib in Resources */,
 				B84944B723F0B75F00A2E335 /* Assets.xcassets in Resources */,
 				B80E344C23FE14E800E721F7 /* LoginView.xib in Resources */,
+				B84AA56924109D8D006D8C24 /* CategoryCollectionViewCell.xib in Resources */,
 				B84944B523F0B75C00A2E335 /* Main.storyboard in Resources */,
 				B885D7A723FEE7F200882E69 /* UserAccountDataView.xib in Resources */,
 			);
@@ -380,7 +405,9 @@
 				B84944AE23F0B75C00A2E335 /* AppDelegate.swift in Sources */,
 				B836C680240D9420002A483D /* CitiesService.swift in Sources */,
 				B836C69E240D9AE0002A483D /* SocketManager.swift in Sources */,
+				B84AA55B240F3F31006D8C24 /* CityPOIController.swift in Sources */,
 				B836C692240D9848002A483D /* SignUpData.swift in Sources */,
+				B866242B2410A9C800F16896 /* PoiOverviewCollectionViewCell.swift in Sources */,
 				B836C688240D965E002A483D /* Message.swift in Sources */,
 				B840D7D323F8A80600138D21 /* Observable.swift in Sources */,
 				B836C69A240D9A83002A483D /* ChatViewController.swift in Sources */,
@@ -391,6 +418,7 @@
 				B836C684240D95F9002A483D /* MessageService.swift in Sources */,
 				B836C686240D960D002A483D /* TripService.swift in Sources */,
 				B885D7A923FEE80300882E69 /* UserAccountDataView.swift in Sources */,
+				B84AA56824109D8D006D8C24 /* CategoryCollectionViewCell.swift in Sources */,
 				B87BC4D424088CE300D1D430 /* AutocompleteTextFieldViewModel.swift in Sources */,
 				B836C67E240D897E002A483D /* UserService.swift in Sources */,
 				B840D7D723F8A85C00138D21 /* Bindable.swift in Sources */,

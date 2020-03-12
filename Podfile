@@ -9,5 +9,9 @@ target 'MarvelousTravel' do
   pod 'Socket.IO-Client-Swift', '~> 15.2.0'
   pod 'MessageKit'
   pod 'InputBarAccessoryView'
-
+  pod 'SDWebImage', '~> 5.0'
+  pod 'GoogleMapsTileOverlay', '~> 0.4.1'
+  pod 'expanding-collection'
+  pod 'Koyomi'
+  
 end

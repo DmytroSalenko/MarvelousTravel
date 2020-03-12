@@ -15,6 +15,7 @@ class ChatViewController: MessagesViewController, InputBarAccessoryViewDelegate,
     let chatService = ChatService()
     let userService = UserService(config: URLSessionConfiguration.default)
     let messageService = MessageService()
+    var chatID : String?
     
     var currentUser : User?
     var userMiniPicture : UIImage?
@@ -64,7 +65,8 @@ class ChatViewController: MessagesViewController, InputBarAccessoryViewDelegate,
     
     // fetch chat in here
     func loadChat() {
-        chatService.getSingleChat { (chat, error) in
+        guard let chatId = chatID else {return}
+        chatService.getSingleChat(chatId: chatId) { (chat, error) in
             if let chat = chat {
                 self.messages = chat.chatMessages
                 //
@@ -195,7 +197,11 @@ extension ChatViewController {
         
         if message.sender.senderId == currentUser?._id {
             // load image here
+            if let mini = userMiniPicture {
             avatarView.image = userMiniPicture!
+            } else {
+                avatarView.image = UIImage(named: "swift")
+            }
         } else {
             avatarView.image = UIImage(named: "swift")
         }

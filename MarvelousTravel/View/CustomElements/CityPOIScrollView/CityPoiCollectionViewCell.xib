@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CityPOICollectionViewCellIdentifier" id="gTV-IL-0wX" customClass="CityPoiCollectionViewCell" customModule="MarvelousTravel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="309"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="309"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POI name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26L-GC-g0D">
+                        <rect key="frame" x="20" y="61" width="85" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3o-PB-4U6">
+                        <rect key="frame" x="20" y="90" width="63" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxi-Cd-geX">
+                        <rect key="frame" x="20" y="146" width="46" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Cr2-kK-YO9">
+                        <rect key="frame" x="20" y="181" width="325" height="108"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lMx-G7-W4s">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="gTV-IL-0wX" id="fXe-3p-PYp"/>
+                            <outlet property="delegate" destination="gTV-IL-0wX" id="Xkz-d3-Otx"/>
+                        </connections>
+                    </collectionView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Nc-JC-C5C">
+                        <rect key="frame" x="312" y="58" width="33" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="33" id="M0x-iE-q3c"/>
+                            <constraint firstAttribute="height" constant="33" id="Szq-ZL-HT1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <state key="normal" image="heart" catalog="system"/>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Cr2-kK-YO9" firstAttribute="top" secondItem="wxi-Cd-geX" secondAttribute="bottom" constant="18" id="5gk-Rr-U1N"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="Cr2-kK-YO9" secondAttribute="trailing" constant="20" id="7nN-oE-a2l"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="Cr2-kK-YO9" secondAttribute="bottom" constant="20" id="82G-gF-mgb"/>
+                <constraint firstItem="wxi-Cd-geX" firstAttribute="leading" secondItem="a3o-PB-4U6" secondAttribute="leading" id="Etm-4v-rc7"/>
+                <constraint firstItem="a3o-PB-4U6" firstAttribute="leading" secondItem="26L-GC-g0D" secondAttribute="leading" id="Hcd-Uc-dcQ"/>
+                <constraint firstItem="wxi-Cd-geX" firstAttribute="top" secondItem="a3o-PB-4U6" secondAttribute="bottom" constant="35" id="JUl-DX-Dda"/>
+                <constraint firstItem="Cr2-kK-YO9" firstAttribute="leading" secondItem="wxi-Cd-geX" secondAttribute="leading" id="U71-ld-vXX"/>
+                <constraint firstItem="26L-GC-g0D" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="20" id="aF1-vK-0Dt"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="26L-GC-g0D" secondAttribute="top" constant="-17" id="aTt-P6-zxm"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="6Nc-JC-C5C" secondAttribute="trailing" constant="20" id="ckp-c0-pwT"/>
+                <constraint firstItem="a3o-PB-4U6" firstAttribute="top" secondItem="26L-GC-g0D" secondAttribute="bottom" constant="5" id="k6c-nf-Fin"/>
+                <constraint firstItem="Cr2-kK-YO9" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="20" id="p8z-Ad-bZl"/>
+                <constraint firstItem="6Nc-JC-C5C" firstAttribute="bottom" secondItem="26L-GC-g0D" secondAttribute="bottom" constant="6" id="tat-vR-YhH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="365" height="309"/>
+            <connections>
+                <outlet property="likeButton" destination="6Nc-JC-C5C" id="Maj-yf-fkG"/>
+                <outlet property="poiAddressLabel" destination="a3o-PB-4U6" id="7fk-Ss-v3d"/>
+                <outlet property="poiNameLabel" destination="26L-GC-g0D" id="Enf-R5-9R2"/>
+                <outlet property="poiPhotosCollectionView" destination="Cr2-kK-YO9" id="DGA-VE-JDS"/>
+            </connections>
+            <point key="canvasLocation" x="122.46376811594205" y="229.35267857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="64" height="54"/>
+    </resources>
+</document>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalendarView" customModule="MarvelousTravel" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="beX-ib-1ub"/>
+                <outlet property="dateLabel" destination="l8M-Hj-sFv" id="02u-qd-OeA"/>
+                <outlet property="doneButton" destination="d4c-cA-ZD4" id="wmd-jW-LYS"/>
+                <outlet property="koyomiCalendar" destination="W9i-Hp-aYd" id="nBp-FK-be0"/>
+                <outlet property="segmentControl" destination="Aq4-4W-KfJ" id="AuL-CR-SgL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="385"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Aq4-4W-KfJ">
+                    <rect key="frame" x="70" y="19" width="220" height="32"/>
+                    <segments>
+                        <segment title="Current"/>
+                        <segment title="Next"/>
+                    </segments>
+                    <connections>
+                        <action selector="segmentControlValueChanged:" destination="-1" eventType="valueChanged" id="vlL-4a-Gai"/>
+                    </connections>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W9i-Hp-aYd" customClass="Koyomi" customModule="Koyomi">
+                    <rect key="frame" x="20" y="103" width="320" height="231"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="231" id="90Y-rK-8bv"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4c-cA-ZD4">
+                    <rect key="frame" x="303" y="57" width="37" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="doneButtonOnTouch:" destination="-1" eventType="touchUpInside" id="eF2-uV-3CC"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8M-Hj-sFv">
+                    <rect key="frame" x="98" y="66" width="45" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Aq4-4W-KfJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="4cw-8i-YLB"/>
+                <constraint firstItem="l8M-Hj-sFv" firstAttribute="top" secondItem="Aq4-4W-KfJ" secondAttribute="bottom" constant="16" id="Hnl-08-Ylm"/>
+                <constraint firstItem="l8M-Hj-sFv" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="98" id="WKS-BZ-zdb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="W9i-Hp-aYd" secondAttribute="trailing" constant="20" id="XwL-Xq-gX6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Aq4-4W-KfJ" secondAttribute="trailing" constant="70" id="YaQ-8X-EyF"/>
+                <constraint firstItem="Aq4-4W-KfJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="70" id="cHs-un-2C1"/>
+                <constraint firstItem="W9i-Hp-aYd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="gD1-cH-APB"/>
+                <constraint firstItem="W9i-Hp-aYd" firstAttribute="top" secondItem="l8M-Hj-sFv" secondAttribute="bottom" constant="16.5" id="lIu-1F-0De"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="159.42028985507247" y="151.67410714285714"/>
+        </view>
+    </objects>
+</document>

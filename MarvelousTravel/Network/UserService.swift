@@ -218,28 +218,29 @@ class UserService {
     
     
     func getMiniPicture(completion : @escaping (UIImage?, NSError?) -> Void) {
-        
-        guard let url = URL(string: "http://localhost:3000/api/users/icon/5e45f3e5124afa2403d92a9e") else {
-            return
-        }
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-        let session = URLSession.shared
-        session.dataTask(with: request) {(data, response, error) in
-            if let response = response {
-                print(response)
-            }
-            if let data = data {
-                let image = UIImage(data: data)
-                completion(image!, nil)
-            } else {
-                completion(nil, error as! NSError)
-            }
             
-        }.resume()
-        
+            guard let url = URL(string: "http://localhost:3000/api/users/icon/5e45f3e5124afa2403d92a9e") else {
+                return
+            }
+            var request = URLRequest(url: url)
+            request.httpMethod = "GET"
+            let session = URLSession.shared
+            session.dataTask(with: request) {(data, response, error) in
+                if let response = response {
+                    print(response)
+                }
+                if let data = data {
+                    let image = UIImage(data: data)
+                    guard let mini = image else {return}
+                    completion(mini, nil)
+                } else {
+                    completion(nil, error as! NSError)
+                }
+                
+            }.resume()
+            
+        }
     }
-}
 
 extension NSMutableData {
     func appendString(_ string: String) {

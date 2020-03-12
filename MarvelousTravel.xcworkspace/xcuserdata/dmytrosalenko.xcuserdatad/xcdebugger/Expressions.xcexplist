@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in closure #1 in CityPOIController.initialSetup():CityPOIController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewModel.isLoading.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CityPOIViewModel.loadPoiDataForSelectedCategory(onCompletion:):CityPOIViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIDetailedViewController.scrollViewWillBeginDecelerating(_:):CityPOIDetailedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.currentPoi.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIDetailedViewController.collectionView(_:cellForItemAt:):CityPOIDetailedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIController.collectionView(_:cellForItemAt:):CityPOIController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "PoiService.loadPoiPreviewData(label:location:onSuccess:onError:):PoiService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CategoryRow.collectionView(_:didSelectItemAt:):CategoryRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.subviews[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIViewModel.loadPoiOverviewImageThumbnail(_:):CityPOIViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CategoryRow.collectionView(_:cellForItemAt:):CategoryRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.bounds.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIController.collectionView(_:willDisplay:forItemAt:):CityPOIController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.isLoaded.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIDetailedViewController.scrollViewDidEndDecelerating(_:):CityPOIDetailedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "poiCollectionView.indexPath(for: cell)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIViewModel.loadPoiDataForSelectedCategory(onCompletion:):CityPOIViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CategoryRow.collectionView(_:layout:sizeForItemAt:):CategoryRow.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

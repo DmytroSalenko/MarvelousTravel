@@ -24,7 +24,7 @@ class CitiesService {
             URLQueryItem(name: "annotate", value: "trigram:\(inputString)"),
             URLQueryItem(name: "trigram", value: ">=0.3"),
             URLQueryItem(name: "count", value: "\(numberOfItems)"),
-            URLQueryItem(name: "fields", value: "id,name,score,country_id,parent_id,snippet,images"),
+            URLQueryItem(name: "fields", value: "id,name,score,country_id,parent_id,snippet,images,coordinates"),
             URLQueryItem(name: "order_by", value: "-trigram"),
             URLQueryItem(name: "account", value: "60V4HGIQ"),
             URLQueryItem(name: "token", value: "224lunxhzsjtnlt0jw7n30yhgebkre1h"),
@@ -41,6 +41,37 @@ class CitiesService {
                     if (200...399).contains(statusCode) {
                         let objs = try self.jsonDecoder.decode(CityAutocompletionResponseModel.self, from: _data)
                         onSuccess(objs.results)
+                    } else {
+                        onError(error)
+                    }
+                } catch {
+                    onError(error)
+                }
+            }
+        }
+        task.resume()
+    }
+    
+    func getStockImage(forCity: String, onSuccess: @escaping (StockPhotoUrl)->(), onError: @escaping (Error?) -> ()) throws {
+        var components = URLComponents(string:"https://api.pexels.com/v1/search")!
+        // TODO add arguments
+         components.queryItems = [
+            URLQueryItem(name: "query", value: "\(forCity)"),
+            URLQueryItem(name: "per_page", value: "1"),
+            URLQueryItem(name: "page", value: "1")
+        ]
+        var request = URLRequest(url: components.url!)
+        request.setValue("563492ad6f917000010000012b765f8d48a14b91ab3bc9a6f6839a18", forHTTPHeaderField: "Authorization")
+        request.httpMethod = "GET"
+        let task = self.urlSession.dataTask(with: request) {
+            (data, response, error) in
+            if let httpResponse = response as? HTTPURLResponse {
+                let statusCode = httpResponse.statusCode
+                do {
+                    let _data = data ?? Data()
+                    if (200...399).contains(statusCode) {
+                        let objs = try self.jsonDecoder.decode(StockPhotoResponse.self, from: _data)
+                        onSuccess(objs.photos![0].src!)
                     } else {
                         onError(error)
                     }

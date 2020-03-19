@@ -67,6 +67,7 @@ class CityPOIDetailedViewController: UIViewController {
         let region = MKCoordinateRegion( center: location.coordinate, latitudinalMeters: CLLocationDistance(exactly: 3000)!, longitudinalMeters: CLLocationDistance(exactly: 3000)!)
         mapView.setRegion(mapView.regionThatFits(region), animated: true)
         
+        mapView.showsUserLocation = true
         guard let jsonURL = Bundle.main.url(forResource: "minimal", withExtension: "json") else { return }
         let tileOverlay = try? GoogleMapsTileOverlay(jsonURL: jsonURL)
         tileOverlay!.canReplaceMapContent = true

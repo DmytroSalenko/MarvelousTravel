@@ -14,6 +14,7 @@ class City: Codable, Equatable {
     var country_id: String?
     var name: String?
     var snippet: String?
+    var coordinates: Coordinates?
     var images: [CityImageMetaData]?
     
     static func == (lhs: City, rhs: City) -> Bool {
@@ -58,13 +59,30 @@ struct CityAutocompletionResponseModel: Codable {
 
 struct CityImageMetaData: Codable {
     var caption: String?
-    var sizes: CityImageData?
+    var sizes: CityImageSize?
+    
+    var dictionary: [String: Any] {
+        return ["caption": caption,
+                "sizes": sizes?.dictionary]
+    }
+    var nsDictionary: NSDictionary {
+        return dictionary as NSDictionary
+    }
 }
 
-struct CityImageData: Codable {
+struct CityImageSize: Codable {
     var medium: CityImage?
     var original: CityImage?
     var thumbnail: CityImage?
+    
+    var dictionary: [String: Any] {
+        return ["medium": medium?.dictionary,
+                "original": original?.dictionary,
+                "thumbnail": thumbnail?.dictionary]
+    }
+    var nsDictionary: NSDictionary {
+        return dictionary as NSDictionary
+    }
 }
 
 struct CityImage: Codable {
@@ -73,4 +91,29 @@ struct CityImage: Codable {
     var height: Int?
     var bytes: Int?
     var format: String?
+    
+    var dictionary: [String: Any] {
+        return ["url": url,
+                "width": width,
+                "height": height,
+                "bytes": bytes,
+                "format":format]
+    }
+    var nsDictionary: NSDictionary {
+        return dictionary as NSDictionary
+    }
 }
+
+
+//struct Json {
+//    static let encoder = JSONEncoder()
+//}
+//
+//extension Encodable {
+//    subscript(key: String) -> Any? {
+//        return dictionary[key]
+//    }
+//    var dictionary: [String: Any] {
+//        return (try? JSONSerialization.jsonObject(with: Json.encoder.encode(self))) as? [String: Any] ?? [:]
+//    }
+//}

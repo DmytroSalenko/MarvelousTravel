@@ -3,62 +3,30 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "closure #1 in closure #1 in CityPOIController.initialSetup():CityPOIController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "self.viewModel.isLoading.value">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "closure #1 in CityPOIViewModel.loadPoiDataForSelectedCategory(onCompletion:):CityPOIViewModel.swift">
       </ContextState>
       <ContextState
-         contextName = "CityPOIDetailedViewController.scrollViewWillBeginDecelerating(_:):CityPOIDetailedViewController.swift">
+         contextName = "TripCollectionViewModel.downloadStockPhotoUrls(completionHandler:):TripCollectionViewModel.swift">
          <PersistentStrings>
             <PersistentString
-               value = "viewModel.currentPoi.row">
+               value = "stockPhotoArray">
+            </PersistentString>
+            <PersistentString
+               value = "tripArray">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "CityPOIDetailedViewController.collectionView(_:cellForItemAt:):CityPOIDetailedViewController.swift">
+         contextName = "CategoryRow.collectionView(_:layout:sizeForItemAt:):CategoryRow.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CityWalkViewModel.generateCityWalk():CityWalkViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CityWalkViewModel.generateCityWalk(completionHandler:):CityWalkViewModel.swift">
          <PersistentStrings>
             <PersistentString
-               value = "indexPath.row">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "CityPOIController.collectionView(_:cellForItemAt:):CityPOIController.swift">
-      </ContextState>
-      <ContextState
-         contextName = "PoiService.loadPoiPreviewData(label:location:onSuccess:onError:):PoiService.swift">
-      </ContextState>
-      <ContextState
-         contextName = "CategoryRow.collectionView(_:didSelectItemAt:):CategoryRow.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "cell.subviews[0]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "CityPOIViewModel.loadPoiOverviewImageThumbnail(_:):CityPOIViewModel.swift">
-      </ContextState>
-      <ContextState
-         contextName = "CategoryRow.collectionView(_:cellForItemAt:):CategoryRow.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "cell.bounds.size.width">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "CityPOIController.collectionView(_:willDisplay:forItemAt:):CityPOIController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "viewModel.isLoaded.value">
+               value = "selectedItem">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -71,10 +39,111 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "closure #1 in CitiesService.citiesAutocompletionQuery(_:onSuccess:onError:):CitiesService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CreateTripViewController.addDestinationRepresentationView():CreateTripViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedCity">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIDetailedViewController.collectionView(_:cellForItemAt:):CityPOIDetailedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "CityPOIViewModel.loadPoiDataForSelectedCategory(onCompletion:):CityPOIViewModel.swift">
       </ContextState>
       <ContextState
-         contextName = "CategoryRow.collectionView(_:layout:sizeForItemAt:):CategoryRow.swift">
+         contextName = "CreateTripViewController.createTrip():CreateTripViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "trip">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CategoryRow.collectionView(_:didSelectItemAt:):CategoryRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.subviews[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIDetailedViewController.scrollViewWillBeginDecelerating(_:):CityPOIDetailedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.currentPoi.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CitiesService.getStockImage(forCity:onSuccess:onError:):CitiesService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "TripService.createTrip(trip:destinationsArray:completion:):TripService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CityWalkViewModel.generateCityWalk(completionHandler:):CityWalkViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "generatedCityWalkResult">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in TripCollectionViewModel.downloadStockPhotoUrls():TripCollectionViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stockPhotoArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in CityPOIController.initialSetup():CityPOIController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewModel.isLoading.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in TripService.createTrip(trip:destinationsArray:completion:):TripService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIController.collectionView(_:willDisplay:forItemAt:):CityPOIController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.isLoaded.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreateTripViewController.handleSwitchViewNotification(notification:):CreateTripViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIViewModel.loadPoiOverviewImageThumbnail(_:):CityPOIViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "PoiService.loadPoiPreviewData(label:location:onSuccess:onError:):PoiService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CategoryRow.collectionView(_:cellForItemAt:):CategoryRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.bounds.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CityPOIController.collectionView(_:cellForItemAt:):CityPOIController.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

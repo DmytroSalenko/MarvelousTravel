@@ -13,5 +13,8 @@ target 'MarvelousTravel' do
   pod 'GoogleMapsTileOverlay', '~> 0.4.1'
   pod 'expanding-collection'
   pod 'Koyomi'
-  
+  pod "SHSearchBar"
+  pod 'HGCircularSlider', '~> 2.0.0'
+  pod 'ElongationPreview'
+
 end

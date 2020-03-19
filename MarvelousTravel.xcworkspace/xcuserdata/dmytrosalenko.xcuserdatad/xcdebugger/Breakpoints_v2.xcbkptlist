@@ -414,8 +414,8 @@
             filePath = "MarvelousTravel/View/CustomElements/CityPOIScrollView/CityPOIDetailedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "CityPOIDetailedViewController"
             landmarkType = "21">
          </BreakpointContent>
@@ -430,8 +430,8 @@
             filePath = "MarvelousTravel/View/CustomElements/CityPOIScrollView/CityPOIDetailedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "collectionView(_:layout:sizeForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -446,8 +446,8 @@
             filePath = "MarvelousTravel/View/CustomElements/CityPOIScrollView/CityPOIDetailedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "configureMap()"
             landmarkType = "7">
          </BreakpointContent>
@@ -494,8 +494,8 @@
             filePath = "MarvelousTravel/View/CustomElements/CityPOIScrollView/CityPOIDetailedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "scrollViewWillBeginDecelerating(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -510,8 +510,8 @@
             filePath = "MarvelousTravel/View/CustomElements/CityPOIScrollView/CityPOIDetailedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -526,8 +526,8 @@
             filePath = "MarvelousTravel/View/CustomElements/CityPOIScrollView/CityPOIDetailedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
             landmarkName = "scrollViewDidEndDragging(_:willDecelerate:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -558,8 +558,8 @@
             filePath = "MarvelousTravel/View/CustomElements/CityPOIScrollView/CityPOIDetailedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -736,7 +736,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
             endingLineNumber = "43"
-            landmarkName = "citiesAutocompletionQuery(_:onSuccess:onError:)"
+            landmarkName = "citiesAutocompletionQuery(_:_:onSuccess:onError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -801,6 +801,1313 @@
             startingLineNumber = "63"
             endingLineNumber = "63"
             landmarkName = "pushToViewController(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B150FF64-00E1-4F6A-AA52-F1C89980F17E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/TripService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "createTrip(trip:destinationsArray:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDF160B3-4293-41E8-B383-80C79EFD9FD6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CreateTripViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "createTrip()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CDF160B3-4293-41E8-B383-80C79EFD9FD6 - 74789c518600f370"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.CreateTripViewController.createTrip() -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/CreateTripViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "2018">
+               </Location>
+               <Location
+                  uuid = "CDF160B3-4293-41E8-B383-80C79EFD9FD6 - 3541264dab176793"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MarvelousTravel.CreateTripViewController.createTrip() -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/CreateTripViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2D65DA2-B926-4871-BF80-F70638B1A628"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/TripService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "createTrip(trip:destinationsArray:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EA47BA5-E949-4DAF-8D6C-92BDE4D35752"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CreateTripViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "handleSwitchViewNotification(notification:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59E22F2C-4D60-408F-A1F9-2781FAFD472C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CreateTripViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "addDestinationRepresentationView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A5F7F6A-A30F-46C2-8ADE-A1F12409FF41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Helper/Helper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "createDestinationDicionary(destination:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9A5F7F6A-A30F-46C2-8ADE-A1F12409FF41 - a1b0445ead37e599"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static MarvelousTravel.Helper.createDestinationDicionary(destination: MarvelousTravel.Destination) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/Helper/Helper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  uuid = "9A5F7F6A-A30F-46C2-8ADE-A1F12409FF41 - 21a0f2b904d8ea61"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MarvelousTravel.CityImageMetaData) -&gt; __C.NSDictionary in static MarvelousTravel.Helper.createDestinationDicionary(destination: MarvelousTravel.Destination) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/Helper/Helper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62045053-CCBF-463A-8CC7-CAB8323CF9A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/TripService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "createTrip(trip:destinationsArray:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DEE0D9E-A580-466B-8C4C-718D9F618E16"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Entities/City.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC4F9A85-B0FA-41A2-8884-3EEAA2B8DCE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Entities/City.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "nsDictionary"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBAC6FE5-E774-4B37-9A58-9D06E55A880F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Entities/City.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "nsDictionary"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F24C6A99-BC8E-4D35-84AB-3EDBF1D3BCA6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Entities/City.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "nsDictionary"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44D8FED1-8240-4C99-A434-12F8A06CED4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Helper/Helper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "createDestinationDicionary(destination:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBEADAF0-7E88-430F-87CE-7A98A1C682DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "loadTrips(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FBEADAF0-7E88-430F-87CE-7A98A1C682DA - 6508b2d5002fe93f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MarvelousTravel.Trip&gt;) -&gt; () in MarvelousTravel.TripCollectionViewModel.loadTrips(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "462">
+               </Location>
+               <Location
+                  uuid = "FBEADAF0-7E88-430F-87CE-7A98A1C682DA - f993ce96431ec92e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Array&lt;MarvelousTravel.Trip&gt;) -&gt; () in MarvelousTravel.TripCollectionViewModel.loadTrips(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AACE505-684B-4879-B114-057FAFCA9DD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/CitiesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "getStockImage(forCity:onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46C87506-8136-49F2-9DD5-248CD4039D29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/CitiesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "getStockImage(forCity:onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10901DEC-C52C-4BCC-AB1C-747B11D15508"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "downloadStockPhotoUrls(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E766A24E-BD05-4DD3-9A47-B608AFB4B9AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/Trips/TripCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "setBackgroundImageFromStock(imageUrlString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "156A1B03-73A7-4E00-B0EB-8AED1C4D9EB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "downloadStockPhotoUrls(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "156A1B03-73A7-4E00-B0EB-8AED1C4D9EB4 - c5a10409a13cab30"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.TripCollectionViewModel.downloadStockPhotoUrls(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1267">
+               </Location>
+               <Location
+                  uuid = "156A1B03-73A7-4E00-B0EB-8AED1C4D9EB4 - 8e1fc796b97390c2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MarvelousTravel.StockPhotoUrl) -&gt; () in MarvelousTravel.TripCollectionViewModel.downloadStockPhotoUrls(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CD9AD1D-F42B-45D0-8492-20F84EB3606F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "downloadStockPhotoUrls(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4CD9AD1D-F42B-45D0-8492-20F84EB3606F - c5a10409a13cab30"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.TripCollectionViewModel.downloadStockPhotoUrls(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1267">
+               </Location>
+               <Location
+                  uuid = "4CD9AD1D-F42B-45D0-8492-20F84EB3606F - 8e1fc796b97390c2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MarvelousTravel.StockPhotoUrl) -&gt; () in MarvelousTravel.TripCollectionViewModel.downloadStockPhotoUrls(completionHandler: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D36AF72D-2A4C-4516-BC3A-312013FC87A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "downloadStockPhotoUrls(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7606BD30-BBF9-48B6-9D2E-C53BF12082AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "downloadStockPhotoUrls(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F29196B3-4649-4FE2-9A72-A611B841E31B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/CitiesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "getStockImage(forCity:onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C3716D5-3957-466E-BD31-96BC7A43C416"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/CitiesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "getStockImage(forCity:onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "162D5ACF-90DA-4A06-9371-CA3B92E5099B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/Trips/TripListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F4CEEF8-7500-4982-91F1-42EA9CD69FB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/TripCollectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "downloadStockPhotoUrls(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FBA3EC5-5314-42EE-BA79-A98C84F08E1B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/Trips/TripCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "configureCell(tripData:stockImageUrl:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F89C40EA-5A02-4E33-BD44-7AA403B24186"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/Trips/TripCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "configureCell(tripData:stockImageUrl:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "989C05E5-7BB8-45B3-AFDE-2C339CECC5A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/Trips/TripCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "configureCell(tripData:stockImageUrl:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06F558A0-4628-47BD-877F-FC9D2FC75EC1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/SocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "06F558A0-4628-47BD-877F-FC9D2FC75EC1 - 7a4b4c81c6688669"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.init() -&gt; MarvelousTravel.SocketIOManager"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "2271">
+               </Location>
+               <Location
+                  uuid = "06F558A0-4628-47BD-877F-FC9D2FC75EC1 - aaa32bb54cda6284"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in MarvelousTravel.SocketIOManager.init() -&gt; MarvelousTravel.SocketIOManager"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DF41803-08FD-44D1-8444-CD1E8DE52127"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/SocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C08554DC-6102-4878-8C59-CF9A2701C0D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/SocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8746835-4B5C-4CAA-8EDE-894149264FC8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/SocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "756729D2-3BBB-40F1-8914-63F8CCBD4B7A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/SocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "establishConnection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "210C2D03-4752-426E-9612-8A257BEB2196"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/TripService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getAllTrips(onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "604A7B52-D7C4-4235-924B-0E84BB03AD89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/Trips/TripCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "setCreatorImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "216D7438-F61D-4E7E-B7D6-B456B1C520EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/SocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "SocketIOManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "216D7438-F61D-4E7E-B7D6-B456B1C520EB - d31ab60113b053db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.socket.getter : Swift.Optional&lt;SocketIO.SocketIOClient&gt;"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "216D7438-F61D-4E7E-B7D6-B456B1C520EB - 6835f89b64efafd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.socket.setter : Swift.Optional&lt;SocketIO.SocketIOClient&gt;"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "216D7438-F61D-4E7E-B7D6-B456B1C520EB - 3ed5afdbb3c0dee4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.socket.modify : Swift.Optional&lt;SocketIO.SocketIOClient&gt;"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "216D7438-F61D-4E7E-B7D6-B456B1C520EB - f3d1c17044b1b0b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.socket.modify : Swift.Optional&lt;SocketIO.SocketIOClient&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E9BB642-0678-44E9-BBC4-26275CB0FEEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/SocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "SocketIOManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3E9BB642-0678-44E9-BBC4-26275CB0FEEE - 43bd1bec3642c425"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.newReceivedMessage.getter : MarvelousTravel.Message"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "3E9BB642-0678-44E9-BBC4-26275CB0FEEE - 2a2dcd9a9c3f5011"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.newReceivedMessage.setter : MarvelousTravel.Message"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "3E9BB642-0678-44E9-BBC4-26275CB0FEEE - 4481631f1ef29326"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.newReceivedMessage.modify : MarvelousTravel.Message"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "3E9BB642-0678-44E9-BBC4-26275CB0FEEE - 9f887ee7b00cea12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.newReceivedMessage.modify : MarvelousTravel.Message with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C27DC93-943C-4A7D-A8C2-78722FD2D447"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/SocketManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SocketIOManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8C27DC93-943C-4A7D-A8C2-78722FD2D447 - 4cce18749862dd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_66631F07D650BD275713FE57DE6F5E55_func0"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "11">
+               </Location>
+               <Location
+                  uuid = "8C27DC93-943C-4A7D-A8C2-78722FD2D447 - 89f78de27cd122b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.SocketIOManager.sharedInstance.unsafeMutableAddressor : MarvelousTravel.SocketIOManager"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "8C27DC93-943C-4A7D-A8C2-78722FD2D447 - 7d4c63488915d805"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static MarvelousTravel.SocketIOManager.sharedInstance.getter : MarvelousTravel.SocketIOManager"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/SocketManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67F13D77-3B24-4DD2-895A-193A7CD941BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "getCurrentUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "67F13D77-3B24-4DD2-895A-193A7CD941BC - 4bd5557a9104ccf5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.ChatViewController.(getCurrentUser in _C837D1D6E4FD4C899EF5F6B0202F46E5)() -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "67F13D77-3B24-4DD2-895A-193A7CD941BC - e6ed26a2bd683909"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;MarvelousTravel.User&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; () in MarvelousTravel.ChatViewController.(getCurrentUser in _C837D1D6E4FD4C899EF5F6B0202F46E5)() -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/View/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "137">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C91FB264-9D49-47FE-91C4-090870CFE6F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "loadChat()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69B33F8E-4A11-4AD7-872A-53C3945B19FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/CityWalk/SearchCompletionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35616088-71D2-4B02-A09E-80140385A6E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/CityWalkViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "updateSearchResultsForSearchController(searchBarText:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A88562C-CE87-42B2-A146-7DAB8EA6A17E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/CityWalkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "sendCityWalkRequest(location:totalTime:latitude:longitude:onSuccess:onError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A88562C-CE87-42B2-A146-7DAB8EA6A17E - 6541ce2eb18f1d03"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelousTravel.CityWalkService.sendCityWalkRequest(location: Swift.String, totalTime: Swift.Int, latitude: Swift.Double, longitude: Swift.Double, onSuccess: (Swift.Array&lt;MarvelousTravel.CityWalkResults&gt;) -&gt; (), onError: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/Network/CityWalkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "3342">
+               </Location>
+               <Location
+                  uuid = "4A88562C-CE87-42B2-A146-7DAB8EA6A17E - 17c4e96cd765f117"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MarvelousTravel.CityWalkService.sendCityWalkRequest(location: Swift.String, totalTime: Swift.Int, latitude: Swift.Double, longitude: Swift.Double, onSuccess: (Swift.Array&lt;MarvelousTravel.CityWalkResults&gt;) -&gt; (), onError: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) throws -&gt; ()"
+                  moduleName = "MarvelousTravel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmytrosalenko/Documents/College%20study/Term%204/Capstone/App/MarvelousTravel/MarvelousTravel/Network/CityWalkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "301">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6F1DCAF-69F6-4E5C-8916-D1D447EC0A54"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/CityWalkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "sendCityWalkRequest(location:totalTime:latitude:longitude:onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A635427-C346-4443-8DF1-A3F539A1E4F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/CityWalkViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "generateCityWalk(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C76F36F6-0849-4A04-B08C-C5DB046B4AA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/CityWalk/CityWalkViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0438A0C-25E4-40C0-A7D9-2CEB56962AD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/CityWalk/CityWalkViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FAE1F96-5919-46BE-A563-9E48DFF86EF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/ViewModel/CityWalkViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "generateCityWalk(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A6B36E4-2D8C-41D7-BFF0-C11AF61A20EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/CityWalk/ElongationCell/DemoElongationCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "configureCell()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEEEB247-3001-4F41-8741-36E021216178"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/CityWalk/CityWalkViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "openDetailView(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6EF84F0-D111-47E0-85BD-B15317EEBE69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/Network/CityWalkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "sendCityWalkRequest(location:totalTime:latitude:longitude:onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AD76CE5-A793-48E4-BD6B-73987E878469"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/CityWalk/CityWalkMapPicker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "defaultSearchBarConfig(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "666855CC-3BFA-4BFE-9E63-8018166F8AD4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/CityWalk/SearchCompletionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "backButtonPressed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43D02654-2F9D-451A-875B-5604F716E4AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/CityWalk/CityWalkMapPicker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "reverseGeocodeLocation(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44B647ED-781D-4994-B21C-1ECED6FA9625"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelousTravel/View/CustomElements/CityWalk/CityWalkMapPicker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

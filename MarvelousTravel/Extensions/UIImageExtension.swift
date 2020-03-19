@@ -9,51 +9,22 @@
 import Foundation
 import UIKit
 
-//extension UIImageView {
-//    func load(url: URL) {
-//        DispatchQueue.global().async { [weak self] in
-//            if let data = try? Data(contentsOf: url) {
-//                if let image = UIImage(data: data) {
-//                    DispatchQueue.main.async {
-//                        self?.image = image
-//                    }
-//                }
-//            }
-//        }
-//    }
-//    
-//    private var activityIndicator: UIActivityIndicatorView {
-//        let activityIndicator = UIActivityIndicatorView()
-//        activityIndicator.hidesWhenStopped = true
-//        activityIndicator.color = UIColor.black
-//        self.addSubview(activityIndicator)
-//
-//        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
-//
-//        let centerX = NSLayoutConstraint(item: self,
-//                                         attribute: .centerX,
-//                                         relatedBy: .equal,
-//                                         toItem: activityIndicator,
-//                                         attribute: .centerX,
-//                                         multiplier: 1,
-//                                         constant: 0)
-//        let centerY = NSLayoutConstraint(item: self,
-//                                         attribute: .centerY,
-//                                         relatedBy: .equal,
-//                                         toItem: activityIndicator,
-//                                         attribute: .centerY,
-//                                         multiplier: 1,
-//                                         constant: 0)
-//        self.addConstraints([centerX, centerY])
-//        return activityIndicator
-//    }
-//}
-//
-//extension UIImage {
-//    convenience init?(withContentsOfUrl url: URL) throws {
-//        let imageData = try Data(contentsOf: url)
-//    
-//        self.init(data: imageData)
-//    }
-//
-//}
+
+extension UIView {
+    func applyGradientColor(locations: [NSNumber], colors: [CGColor]) {
+        var gradientLayer:CAGradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.bounds
+        gradientLayer.colors = colors //[UIColor.white.cgColor, UIColor.black.cgColor]
+        gradientLayer.locations = locations //[0.0, 0.5]
+        self.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
+    func applyGradientMask(locations: [NSNumber], colors: [CGColor]) {
+        var gradientMaskLayer:CAGradientLayer = CAGradientLayer()
+        gradientMaskLayer.frame = self.bounds
+        gradientMaskLayer.colors = colors //[UIColor.white.cgColor, UIColor.black.cgColor]
+        gradientMaskLayer.locations = locations //[0.0, 0.5]
+        self.layer.mask = gradientMaskLayer
+    }
+}
+

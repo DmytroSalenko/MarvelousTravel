@@ -12,6 +12,14 @@ import UIKit
 struct Coordinates: Codable {
     var latitude: Double?
     var longitude: Double?
+    
+    var dictionary: [String: Double?] {
+        return ["latitude": latitude, "longitude": longitude]
+    }
+    
+    var nsDictionary: NSDictionary {
+        return dictionary as NSDictionary
+    }
 }
 
 struct PoiImage: Codable {

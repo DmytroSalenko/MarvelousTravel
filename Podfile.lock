@@ -1,14 +1,17 @@
 PODS:
   - BFWControls (3.1.2)
+  - ElongationPreview (2.1.0)
   - expanding-collection (3.1.0)
   - GoogleMapsTileOverlay (0.4.1)
+  - HGCircularSlider (2.0.0)
   - InputBarAccessoryView (4.2.2)
   - Koyomi (1.2.7)
   - MessageKit (3.0.0):
     - InputBarAccessoryView (~> 4.2.2)
-  - SDWebImage (5.6.0):
-    - SDWebImage/Core (= 5.6.0)
-  - SDWebImage/Core (5.6.0)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+  - SHSearchBar (1.7.0)
   - Socket.IO-Client-Swift (15.2.0):
     - Starscream (~> 3.1)
   - Starscream (3.1.1)
@@ -16,40 +19,49 @@ PODS:
 
 DEPENDENCIES:
   - BFWControls (~> 3.1)
+  - ElongationPreview
   - expanding-collection
   - GoogleMapsTileOverlay (~> 0.4.1)
+  - HGCircularSlider (~> 2.0.0)
   - InputBarAccessoryView
   - Koyomi
   - MessageKit
   - SDWebImage (~> 5.0)
+  - SHSearchBar
   - Socket.IO-Client-Swift (~> 15.2.0)
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - BFWControls
+    - ElongationPreview
     - expanding-collection
     - GoogleMapsTileOverlay
+    - HGCircularSlider
     - InputBarAccessoryView
     - Koyomi
     - MessageKit
     - SDWebImage
+    - SHSearchBar
     - Socket.IO-Client-Swift
     - Starscream
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   BFWControls: 36089fea1a54c6255ea86422877f723cc7a067ff
+  ElongationPreview: 84b401d349bfcf855e94d6cc6b95d609260b6d96
   expanding-collection: 7eb1fc48c6ec5e00c8887fe46c595c31b81b578a
   GoogleMapsTileOverlay: c8218e3d7f06dd6ea24e25fc424f2d7869d46a1c
+  HGCircularSlider: 92e2ee098c814709f455b8f46cd9008147f6a869
   InputBarAccessoryView: 2b937602598e2fab3149f37f51dd7ad795653812
   Koyomi: f03615b8d2bb5a5a4752c6404a9794ed7ef7b327
   MessageKit: e892a9ca49ebe6d82684d3a93ad84021fa23e2c6
-  SDWebImage: 21b19f56b4226cdfe3aefe4e6848dc43ed129a86
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  SHSearchBar: 9fcc9daff8a3264386b975961de6c485f33439d4
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 46640f9281c7ef30190a590923abb16ed887ba17
+PODFILE CHECKSUM: 3107268d27535acca50ec07b4f3a2538a46b9dcf
 
 COCOAPODS: 1.8.4

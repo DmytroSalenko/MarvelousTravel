@@ -18,6 +18,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow this app to use</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow this app to use</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow this app to use</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>

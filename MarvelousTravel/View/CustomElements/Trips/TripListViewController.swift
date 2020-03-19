@@ -32,7 +32,7 @@ class TripListViewController: ExpandingViewController {
                 }
             }
         })
-        itemSize = CGSize(width: 320, height: 350) //IMPORTANT!!! Height of open state cell
+        itemSize = CGSize(width: 260, height: 350) //IMPORTANT!!! Height of open state cell
 
         registerNib()
         addGesture(to: collectionView!)
@@ -110,9 +110,12 @@ extension TripListViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TripCollectionViewCell.reuseIdentifier, for: indexPath) as? TripCollectionViewCell {
             let trip = viewModel.tripArray[indexPath.row]
-//            cell.configureCell(tripData: trip)
+            let stockImageUrl = viewModel.stockPhotoArray[indexPath.row]
+            cell.configureCell(tripData: trip, stockImageUrl: stockImageUrl)
             return cell
         }
         return UICollectionViewCell()
     }
 }
+
+

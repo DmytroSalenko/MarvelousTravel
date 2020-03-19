@@ -7,8 +7,8 @@
 //
 
 import Foundation
-
 class TripService {
+
     private lazy var jsonDecoder = JSONDecoder()
     
     func createTrip(trip : Trip, destinationsArray: [Any], completion: @escaping (Error?) -> Void){
@@ -19,7 +19,7 @@ class TripService {
         
 
         let parameters : [String: Any] = [
-            "userId" : "5e39f1743c545b2ce181f20d",
+            "creator" : "5e39f1743c545b2ce181f20d", // TODO refactor to add the user id stored after login
             "name" : trip.name,
             "description" : trip.description,
             "trip_start_date" : trip.trip_start_date,

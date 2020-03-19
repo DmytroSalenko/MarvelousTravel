@@ -65,3 +65,19 @@ class TripTableViewController: ExpandingTableViewController {
 //        scrollOffsetY = scrollView.contentOffset.y
 //    }
 //}
+
+extension TripTableViewController {
+
+    override func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if scrollView.contentOffset.y < -25 , let navigationController = navigationController {
+            // buttonAnimation
+            for case let viewController as TripListViewController in navigationController.viewControllers {
+//                if case let rightButton as AnimatingBarButton = viewController.navigationItem.rightBarButtonItem {
+//                    rightButton.animationSelected(false)
+//                }
+            }
+            popTransitionAnimation()
+        }
+        scrollOffsetY = scrollView.contentOffset.y
+    }
+}

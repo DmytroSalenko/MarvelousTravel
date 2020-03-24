@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FBSDKShareKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -31,7 +34,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+            let str_URL = url.absoluteString as NSString
+            if str_URL.contains("fb880651202407103"){
+                return ApplicationDelegate.shared.application(
+                        app,
+                        open: (url as URL?)!,
+                        sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String,
+                        annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+              }
 
+
+        return ApplicationDelegate.shared.application(
+                    app,
+                    open: (url as URL?)!,
+                    sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String,
+                    annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+
+            }
 
 }
 

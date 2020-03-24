@@ -16,5 +16,9 @@ target 'MarvelousTravel' do
   pod "SHSearchBar"
   pod 'HGCircularSlider', '~> 2.0.0'
   pod 'ElongationPreview'
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'FBSDKCoreKit/Swift'
+  pod 'FBSDKLoginKit/Swift'
+  pod 'FBSDKShareKit/Swift'
 
 end

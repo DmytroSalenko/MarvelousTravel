@@ -21,5 +21,4 @@ class Helper {
                        "end_date" : destination.endDate,] as [String : Any]
         return mapDict
     }
-    
 }

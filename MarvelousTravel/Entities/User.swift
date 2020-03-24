@@ -23,4 +23,30 @@ class User: Codable {
     var images_path = [String]()
     var trips = [String]()
     var chats = [String]()
+    
+    var dictionary: [String: Any?] {
+        return ["_id": _id,
+                "email": email,
+                "password_hash": password_hash,
+                "create_at": create_at,
+                "first_name": first_name,
+                "last_name": last_name,
+                "icon_path": icon_path,
+                "mini_icon_path": mini_icon_path,
+                "place_of_living": place_of_living,
+                "interests": interests,
+                "date_of_birth": date_of_birth,
+                "images_path": images_path,
+                "trips": trips,
+                "chats": chats]
+    }
+    var nsDictionary: NSDictionary {
+        return dictionary as NSDictionary
+    }
+}
+
+
+class AuthenticationResponse: Codable {
+    var user: User?
+    var token_data: AuthToken?
 }

@@ -27,9 +27,8 @@ class UserService {
         urlSession = URLSession(configuration: config)
     }
     
-    func logIn(_ loginModel: SignInData, onSuccess: @escaping (AuthToken) -> (), onError: @escaping (Error?) -> ()) throws {
-        var request = URLRequest(url:
-              URL(string:"http://localhost:3000/api/sign")!)
+    func logIn(_ loginModel: SignInData, onSuccess: @escaping (AuthenticationResponse) -> (), onError: @escaping (Error?) -> ()) throws {
+        var request = URLRequest(url: URL(string:"http://localhost:3000/api/sign")!)
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField:
                   "Content-Type")
@@ -43,7 +42,7 @@ class UserService {
                 do {
                     let _data = data ?? Data()
                     if (200...399).contains(statusCode) {
-                        let objs = try self.jsonDecoder.decode(AuthToken.self, from: _data)
+                        let objs = try self.jsonDecoder.decode(AuthenticationResponse.self, from: _data)
                         onSuccess(objs)
                     } else {
                         onError(error)
@@ -51,6 +50,8 @@ class UserService {
                 } catch {
                     onError(error)
                 }
+            } else {
+                onError(error)
             }
         }
         task.resume()
@@ -79,9 +80,8 @@ class UserService {
         task.resume()
     }
     
-    func registerUser(_ signUpModel: SignUpData, onSuccess: @escaping (User) -> (), onError: @escaping (Error?) -> ()) throws {
-        var request = URLRequest(url:
-              URL(string:"http://localhost:3000/api/users")!)
+    func registerUser(_ signUpModel: SignUpData, onSuccess: @escaping (AuthenticationResponse) -> (), onError: @escaping (Error?) -> ()) throws {
+        var request = URLRequest(url: URL(string:"http://localhost:3000/api/users")!)
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField:
                   "Content-Type")
@@ -95,9 +95,7 @@ class UserService {
                 do {
                     let _data = data ?? Data()
                     if (200...399).contains(statusCode) {
-                        let objs = try self.jsonDecoder.decode(User.self, from: _data)
-                        let defaults = UserDefaults.standard
-                        defaults.set(objs._id, forKey: "user_id")
+                        let objs = try self.jsonDecoder.decode(AuthenticationResponse.self, from: _data)
                         onSuccess(objs)
                     } else {
                         onError(error)
@@ -110,11 +108,8 @@ class UserService {
         task.resume()
     }
     
-    func sendUserIcon(_ iconToSend: UIImage, onSuccess: @escaping (User)->(), onError: @escaping (Error?) -> ()) throws {
-        let defaults = UserDefaults.standard
-        let user_id = defaults.object(forKey: "user_id")
-        guard let id = user_id else { return }
-        var request = URLRequest(url: URL(string:"http://localhost:3000/api/upload/icon/\(id)")!)
+    func sendUserIcon(_ iconToSend: UIImage, usesrId: String, onSuccess: @escaping (User)->(), onError: @escaping (Error?) -> ()) throws {
+        var request = URLRequest(url: URL(string:"http://localhost:3000/api/upload/icon/\(usesrId)")!)
         request.httpMethod = "POST"
         let boundary = "Boundary-\(UUID().uuidString)"
         request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
@@ -124,6 +119,33 @@ class UserService {
                                       mimeType: "image/jpg",
                                       filename: "hello.jpg")
         
+        let task = self.urlSession.dataTask(with: request) {
+            (data, response, error) in
+            if let httpResponse = response as? HTTPURLResponse {
+                let statusCode = httpResponse.statusCode
+                do {
+                    let _data = data ?? Data()
+                    if (200...399).contains(statusCode) {
+                        let objs = try self.jsonDecoder.decode(User.self, from: _data)
+                        onSuccess(objs)
+                    } else {
+                        onError(error)
+                    }
+                } catch {
+                    onError(error)
+                }
+            }
+        }
+        task.resume()
+    }
+    
+    func updateUserData(_ userData: User, userId: String, onSuccess: @escaping (User)->(), onError: @escaping (Error?) -> ()) throws {
+        var request = URLRequest(url: URL(string:"http://localhost:3000/api/users/\(userId)")!)
+        request.httpMethod = "PUT"
+        request.addValue("application/json", forHTTPHeaderField:
+                  "Content-Type")
+        let payloadData = try? JSONSerialization.data(withJSONObject: userData.dictionaryValue!, options: [])
+        request.httpBody = payloadData
         let task = self.urlSession.dataTask(with: request) {
             (data, response, error) in
             if let httpResponse = response as? HTTPURLResponse {
@@ -183,7 +205,6 @@ class UserService {
     }
     
     func getSingleUser(completion : @escaping (User?, NSError?) -> Void) {
-            
         guard let url = URL(string: "http://localhost:3000/api/users/5e39f1743c545b2ce181f20d") else {return}
             var request = URLRequest(url: url)
             request.httpMethod = "GET"
@@ -218,7 +239,6 @@ class UserService {
     
     
     func getMiniPicture(completion : @escaping (UIImage?, NSError?) -> Void) {
-            
             guard let url = URL(string: "http://localhost:3000/api/users/icon/5e45f3e5124afa2403d92a9e") else {
                 return
             }
@@ -238,9 +258,36 @@ class UserService {
                 }
                 
             }.resume()
-            
         }
+    
+    func fbAuthenticate(data: NSDictionary, accessToken: String, onSuccess: @escaping (AuthenticationResponse)->(), onError: @escaping (Error?) -> ())  throws {
+        var request = URLRequest(url: URL(string:"http://localhost:3000/api/auth/facebook/\(accessToken)")!)
+        request.httpMethod = "POST"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        let payloadData = try? JSONSerialization.data(withJSONObject: data, options: [])
+        request.httpBody = payloadData
+        let task = self.urlSession.dataTask(with: request) {
+            (data, response, error) in
+            if let httpResponse = response as? HTTPURLResponse {
+                let statusCode = httpResponse.statusCode
+                do {
+                    let _data = data ?? Data()
+                    if (200...399).contains(statusCode) {
+                        let objs = try self.jsonDecoder.decode(AuthenticationResponse.self, from: _data)
+//                        let defaults = UserDefaults.standard
+//                        defaults.set(objs._id, forKey: "user_id")
+                        onSuccess(objs)
+                    } else {
+                        onError(error)
+                    }
+                } catch {
+                    onError(error)
+                }
+            }
+        }
+        task.resume()
     }
+}
 
 extension NSMutableData {
     func appendString(_ string: String) {

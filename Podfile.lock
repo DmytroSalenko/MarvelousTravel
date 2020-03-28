@@ -1,4 +1,9 @@
 PODS:
+  - AppAuth (1.3.0):
+    - AppAuth/Core (= 1.3.0)
+    - AppAuth/ExternalUserAgent (= 1.3.0)
+  - AppAuth/Core (1.3.0)
+  - AppAuth/ExternalUserAgent (1.3.0)
   - BFWControls (3.1.2)
   - ElongationPreview (2.1.0)
   - expanding-collection (3.1.0)
@@ -21,6 +26,18 @@ PODS:
     - FBSDKCoreKit/Swift (~> 6.2.0)
     - FBSDKShareKit/Share
   - GoogleMapsTileOverlay (0.4.1)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.3.1):
+    - GTMSessionFetcher/Full (= 1.3.1)
+  - GTMSessionFetcher/Core (1.3.1)
+  - GTMSessionFetcher/Full (1.3.1):
+    - GTMSessionFetcher/Core (= 1.3.1)
   - HGCircularSlider (2.0.0)
   - InputBarAccessoryView (4.2.2)
   - Koyomi (1.2.7)
@@ -44,6 +61,7 @@ DEPENDENCIES:
   - FBSDKLoginKit/Swift
   - FBSDKShareKit/Swift
   - GoogleMapsTileOverlay (~> 0.4.1)
+  - GoogleSignIn
   - HGCircularSlider (~> 2.0.0)
   - InputBarAccessoryView
   - Koyomi
@@ -56,6 +74,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AppAuth
     - BFWControls
     - ElongationPreview
     - expanding-collection
@@ -63,6 +82,9 @@ SPEC REPOS:
     - FBSDKLoginKit
     - FBSDKShareKit
     - GoogleMapsTileOverlay
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
     - HGCircularSlider
     - InputBarAccessoryView
     - Koyomi
@@ -75,6 +97,7 @@ SPEC REPOS:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  AppAuth: 73574f3013a1e65b9601a3ddc8b3158cce68c09d
   BFWControls: 36089fea1a54c6255ea86422877f723cc7a067ff
   ElongationPreview: 84b401d349bfcf855e94d6cc6b95d609260b6d96
   expanding-collection: 7eb1fc48c6ec5e00c8887fe46c595c31b81b578a
@@ -82,6 +105,9 @@ SPEC CHECKSUMS:
   FBSDKLoginKit: 5877adb09cc249870c352d92ecc3246cb925c771
   FBSDKShareKit: 09ad91955d3a6de171970f2954dc1e955b064899
   GoogleMapsTileOverlay: c8218e3d7f06dd6ea24e25fc424f2d7869d46a1c
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
   HGCircularSlider: 92e2ee098c814709f455b8f46cd9008147f6a869
   InputBarAccessoryView: 2b937602598e2fab3149f37f51dd7ad795653812
   Koyomi: f03615b8d2bb5a5a4752c6404a9794ed7ef7b327
@@ -93,6 +119,6 @@ SPEC CHECKSUMS:
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 398b6a9801a43d571577a78d76a3f9932ec718a6
+PODFILE CHECKSUM: 1b7e657eebcef9eb71ec4222639557b144dc9909
 
 COCOAPODS: 1.8.4

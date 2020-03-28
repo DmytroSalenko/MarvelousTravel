@@ -18,11 +18,12 @@ class User: Codable {
     var icon_path: String?
     var mini_icon_path: String?
     var place_of_living: City?
-    var interests : String?
     var date_of_birth : Date?
     var images_path = [String]()
     var trips = [String]()
     var chats = [String]()
+    var interests : String?
+    var about : String?
     
     var dictionary: [String: Any?] {
         return ["_id": _id,

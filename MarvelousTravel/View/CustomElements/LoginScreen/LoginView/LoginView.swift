@@ -110,6 +110,8 @@ class LoginView: NibView {
         container.layer.cornerRadius = container.frame.height / 4
         container.layer.masksToBounds = true
     }
+    
+
 }
 
 extension LoginView: UITextFieldDelegate {

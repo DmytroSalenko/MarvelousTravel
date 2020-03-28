@@ -10,15 +10,40 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import FBSDKShareKit
+import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
-
+    static var visibleViewController: UIViewController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        GIDSignIn.sharedInstance()?.clientID = "594467304444-i56gdff7v61kje4v756n2t3j0n9gfj98.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance()?.delegate = self
         // Override point for customization after application launch.
         return true
+    }
+    
+//    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+//        return GIDSignIn.sharedInstance().handle(url)
+//    }
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        var currentVC : LoginScreenViewController!
+        
+//        let userId = user.userID
+        let idToken = user.authentication.idToken
+//        let fullName = user.profile.name
+//        let givenName = user.profile.givenName
+//        let familyName = user.profile.familyName
+//        let email = user.profile.email
+//        let image = user.profile.imageURL(withDimension: 1)
+        
+        guard let token = idToken else {return}
+        currentVC = AppDelegate.visibleViewController as? LoginScreenViewController
+        if let currentVC = currentVC {
+            currentVC.loginView!.viewModel.googleButtonOnTouch(token: token)
+        }
     }
 
     // MARK: UISceneSession Lifecycle

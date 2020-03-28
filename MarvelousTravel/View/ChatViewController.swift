@@ -113,7 +113,7 @@ class ChatViewController: MessagesViewController, InputBarAccessoryViewDelegate,
     }
     
     private func getCurrentUser() {
-            self.userService.getSingleUser { (user, error) in
+        self.userService.getSingleUser(userId: "5e45f3e5124afa2403d92a9e") { (user, error) in
                 if let user = user {
                     self.currentUser = user
                     print(self.currentUser!.email)

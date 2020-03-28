@@ -22,9 +22,11 @@ class PoiOverviewCollectionViewCell: UICollectionViewCell {
         self.poiNameLabel.sizeToFit()
         self.poiNameLabel.adjustsFontSizeToFitWidth = true
         // load image asynchronously with animation
-        let imageUrl =  URL(string: poi.images![0].sizes!.thumbnail!.url!)!
-        self.poiImage.sd_imageTransition = .fade
-        self.poiImage.sd_setImage(with: imageUrl)
+        if poi.images!.count > 0 {
+            let imageUrl =  URL(string: poi.images![0].sizes!.thumbnail!.url!)!
+            self.poiImage.sd_imageTransition = .fade
+            self.poiImage.sd_setImage(with: imageUrl)
+        }
     }
     
     class var reuseIdentifier: String {

@@ -93,6 +93,19 @@
 		B8CA027524205F5A002880F6 /* TimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CA027424205F5A002880F6 /* TimePickerViewController.swift */; };
 		B8E2106D24298E2400D8ABA3 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2106C24298E2400D8ABA3 /* DestinationSearchView.swift */; };
 		B8E2106F24298E3800D8ABA3 /* DestinationSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E2106E24298E3800D8ABA3 /* DestinationSearchView.xib */; };
+		B8E21071242AE75400D8ABA3 /* DestinationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E21070242AE75400D8ABA3 /* DestinationSearchViewModel.swift */; };
+		B8E21074242C0E3700D8ABA3 /* DestinationCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E21072242C0E3700D8ABA3 /* DestinationCollectionCell.swift */; };
+		B8E21075242C0E3700D8ABA3 /* DestinationCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E21073242C0E3700D8ABA3 /* DestinationCollectionCell.xib */; };
+		B8E21077242C272400D8ABA3 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E21076242C272400D8ABA3 /* MainScreenViewController.swift */; };
+		B8E2107B242C4C7600D8ABA3 /* TravelCompilation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2107A242C4C6D00D8ABA3 /* TravelCompilation.mp4 */; };
+		B8E2107E24300A7B00D8ABA3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2107C24300A7B00D8ABA3 /* ProfileViewController.swift */; };
+		B8E2107F24300A7B00D8ABA3 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2107D24300A7B00D8ABA3 /* SettingsTableViewController.swift */; };
+		B8E2108124300A8B00D8ABA3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2108024300A8A00D8ABA3 /* SettingsViewModel.swift */; };
+		B8E2108924300B4F00D8ABA3 /* StretchyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2108824300B4F00D8ABA3 /* StretchyTableViewCell.swift */; };
+		B8E2108D24300B5C00D8ABA3 /* PersonalInitialsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2108A24300B5B00D8ABA3 /* PersonalInitialsTableViewCell.swift */; };
+		B8E2108E24300B5C00D8ABA3 /* AboutAndInteresetsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2108B24300B5B00D8ABA3 /* AboutAndInteresetsTableViewCell.swift */; };
+		B8E2108F24300B5C00D8ABA3 /* SubmitButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2108C24300B5C00D8ABA3 /* SubmitButtonTableViewCell.swift */; };
+		B8E2109124300E8F00D8ABA3 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2109024300E8E00D8ABA3 /* UIImageViewExtension.swift */; };
 		B8EBEF6C2414813E00CFBC64 /* CityPoiImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EBEF6A2414813E00CFBC64 /* CityPoiImageCell.swift */; };
 		B8EBEF6D2414813E00CFBC64 /* CityPoiImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EBEF6B2414813E00CFBC64 /* CityPoiImageCell.xib */; };
 		B8EBEF6F2415FC9300CFBC64 /* redIsh.json in Resources */ = {isa = PBXBuildFile; fileRef = B8EBEF6E2415FC9200CFBC64 /* redIsh.json */; };
@@ -196,6 +209,19 @@
 		B8CB92F5242401DE00DC0DFA /* CloudsBackground.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CloudsBackground.mp4; sourceTree = "<group>"; };
 		B8E2106C24298E2400D8ABA3 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		B8E2106E24298E3800D8ABA3 /* DestinationSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DestinationSearchView.xib; sourceTree = "<group>"; };
+		B8E21070242AE75400D8ABA3 /* DestinationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchViewModel.swift; sourceTree = "<group>"; };
+		B8E21072242C0E3700D8ABA3 /* DestinationCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCollectionCell.swift; sourceTree = "<group>"; };
+		B8E21073242C0E3700D8ABA3 /* DestinationCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DestinationCollectionCell.xib; sourceTree = "<group>"; };
+		B8E21076242C272400D8ABA3 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		B8E2107A242C4C6D00D8ABA3 /* TravelCompilation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TravelCompilation.mp4; sourceTree = "<group>"; };
+		B8E2107C24300A7B00D8ABA3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B8E2107D24300A7B00D8ABA3 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		B8E2108024300A8A00D8ABA3 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		B8E2108824300B4F00D8ABA3 /* StretchyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StretchyTableViewCell.swift; sourceTree = "<group>"; };
+		B8E2108A24300B5B00D8ABA3 /* PersonalInitialsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInitialsTableViewCell.swift; sourceTree = "<group>"; };
+		B8E2108B24300B5B00D8ABA3 /* AboutAndInteresetsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutAndInteresetsTableViewCell.swift; sourceTree = "<group>"; };
+		B8E2108C24300B5C00D8ABA3 /* SubmitButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitButtonTableViewCell.swift; sourceTree = "<group>"; };
+		B8E2109024300E8E00D8ABA3 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		B8EBEF6A2414813E00CFBC64 /* CityPoiImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPoiImageCell.swift; sourceTree = "<group>"; };
 		B8EBEF6B2414813E00CFBC64 /* CityPoiImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityPoiImageCell.xib; sourceTree = "<group>"; };
 		B8EBEF6E2415FC9200CFBC64 /* redIsh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = redIsh.json; sourceTree = "<group>"; };
@@ -281,6 +307,7 @@
 				B8500D14241AC4E800C39701 /* CreateTripExtensionTableView.swift */,
 				B8500D16241AC4EF00C39701 /* CreateTripExtensionCollectionView.swift */,
 				B8C7D5872411B95C0079E62F /* UIImageExtension.swift */,
+				B8E2109024300E8E00D8ABA3 /* UIImageViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -333,6 +360,8 @@
 				B8500D2A241AC5C900C39701 /* CreateTripViewController.swift */,
 				B836C699240D9A83002A483D /* ChatViewController.swift */,
 				B836C69D240D9AE0002A483D /* SocketManager.swift */,
+				B8E2107C24300A7B00D8ABA3 /* ProfileViewController.swift */,
+				B8E2107D24300A7B00D8ABA3 /* SettingsTableViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -348,6 +377,8 @@
 				B8C7D5972414737C0079E62F /* CityPOIDetailedViewModel.swift */,
 				B8EBEF7E241888FF00CFBC64 /* TripCollectionViewModel.swift */,
 				B8CA027224203B4E002880F6 /* CityWalkViewModel.swift */,
+				B8E21070242AE75400D8ABA3 /* DestinationSearchViewModel.swift */,
+				B8E2108024300A8A00D8ABA3 /* SettingsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -442,6 +473,8 @@
 		B885D7A523FE378400882E69 /* CustomElements */ = {
 			isa = PBXGroup;
 			children = (
+				B8E2108724300B3400D8ABA3 /* StretchyTableViewCell */,
+				B8E2108624300B2200D8ABA3 /* SettingsTableViewControls */,
 				B8E2106B24298DDC00D8ABA3 /* MainScreen */,
 				B8CB92F6242406B400DC0DFA /* LoginScreen */,
 				B8868A3F242967E80005A1CD /* Segues */,
@@ -497,6 +530,7 @@
 		B8BF1F4B2422DFD60084F3A4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B8E2107A242C4C6D00D8ABA3 /* TravelCompilation.mp4 */,
 				B8CB92F5242401DE00DC0DFA /* CloudsBackground.mp4 */,
 				B8C7D595241465D70079E62F /* minimal.json */,
 				B8198F042424519B00274D37 /* fontawesome-webfont.ttf */,
@@ -527,8 +561,29 @@
 			children = (
 				B8E2106C24298E2400D8ABA3 /* DestinationSearchView.swift */,
 				B8E2106E24298E3800D8ABA3 /* DestinationSearchView.xib */,
+				B8E21072242C0E3700D8ABA3 /* DestinationCollectionCell.swift */,
+				B8E21073242C0E3700D8ABA3 /* DestinationCollectionCell.xib */,
+				B8E21076242C272400D8ABA3 /* MainScreenViewController.swift */,
 			);
 			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		B8E2108624300B2200D8ABA3 /* SettingsTableViewControls */ = {
+			isa = PBXGroup;
+			children = (
+				B8E2108B24300B5B00D8ABA3 /* AboutAndInteresetsTableViewCell.swift */,
+				B8E2108A24300B5B00D8ABA3 /* PersonalInitialsTableViewCell.swift */,
+				B8E2108C24300B5C00D8ABA3 /* SubmitButtonTableViewCell.swift */,
+			);
+			path = SettingsTableViewControls;
+			sourceTree = "<group>";
+		};
+		B8E2108724300B3400D8ABA3 /* StretchyTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B8E2108824300B4F00D8ABA3 /* StretchyTableViewCell.swift */,
+			);
+			path = StretchyTableViewCell;
 			sourceTree = "<group>";
 		};
 		B8EBEF70241745D100CFBC64 /* CityWalk */ = {
@@ -568,6 +623,7 @@
 				B84944A723F0B75C00A2E335 /* Frameworks */,
 				B84944A823F0B75C00A2E335 /* Resources */,
 				333ED8C7FC2A0F139CFC3024 /* [CP] Embed Pods Frameworks */,
+				E83AC2A49449ADDE4FB3C420 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -617,6 +673,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E2107B242C4C7600D8ABA3 /* TravelCompilation.mp4 in Resources */,
 				B8198F01242450E700274D37 /* fa-brands-400.ttf in Resources */,
 				B8198F02242450E700274D37 /* fa-regular-400.ttf in Resources */,
 				B8198F03242450E700274D37 /* fa-solid-900.ttf in Resources */,
@@ -636,6 +693,7 @@
 				B84944BA23F0B75F00A2E335 /* LaunchScreen.storyboard in Resources */,
 				B897401A2421841E0007010F /* DemoElongationCell.xib in Resources */,
 				B88FE439240643CF003942CB /* UserPersonalDataView.xib in Resources */,
+				B8E21075242C0E3700D8ABA3 /* DestinationCollectionCell.xib in Resources */,
 				B84944B723F0B75F00A2E335 /* Assets.xcassets in Resources */,
 				B80E344C23FE14E800E721F7 /* LoginView.xib in Resources */,
 				B8500D25241AC58E00C39701 /* DestinationView.xib in Resources */,
@@ -664,6 +722,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarvelousTravel/Pods-MarvelousTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83AC2A49449ADDE4FB3C420 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarvelousTravel/Pods-MarvelousTravel-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarvelousTravel/Pods-MarvelousTravel-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarvelousTravel/Pods-MarvelousTravel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F301340A55DF91C2B103BE6C /* [CP] Check Pods Manifest.lock */ = {
@@ -705,6 +780,7 @@
 				B8500D2D241AC7B900C39701 /* DestinationCollectionViewCell.swift in Sources */,
 				B8500D1C241AC54200C39701 /* ChatTableViewCell.swift in Sources */,
 				B836C69E240D9AE0002A483D /* SocketManager.swift in Sources */,
+				B8E21071242AE75400D8ABA3 /* DestinationSearchViewModel.swift in Sources */,
 				B8EBEF7824182AEB00CFBC64 /* TripCollectionViewCell.swift in Sources */,
 				B84AA55B240F3F31006D8C24 /* CityPOIController.swift in Sources */,
 				B8C7D58D24143E130079E62F /* CityPoiCollectionViewCell.swift in Sources */,
@@ -713,6 +789,8 @@
 				B836C692240D9848002A483D /* SignUpData.swift in Sources */,
 				B8C7D590241443FE0079E62F /* CityPOIDetailedViewController.swift in Sources */,
 				B866242B2410A9C800F16896 /* PoiOverviewCollectionViewCell.swift in Sources */,
+				B8E2108924300B4F00D8ABA3 /* StretchyTableViewCell.swift in Sources */,
+				B8E2108D24300B5C00D8ABA3 /* PersonalInitialsTableViewCell.swift in Sources */,
 				B836C688240D965E002A483D /* Message.swift in Sources */,
 				B840D7D323F8A80600138D21 /* Observable.swift in Sources */,
 				B8500D29241AC5B300C39701 /* ChatsTableViewController.swift in Sources */,
@@ -722,6 +800,7 @@
 				B8CA026F241F03F3002880F6 /* CityWalkMapPicker.swift in Sources */,
 				B8500D22241AC57A00C39701 /* CalendarView.swift in Sources */,
 				B8868A3D242707300005A1CD /* SpinerLayer.swift in Sources */,
+				B8E2109124300E8F00D8ABA3 /* UIImageViewExtension.swift in Sources */,
 				B8CA027324203B4E002880F6 /* CityWalkViewModel.swift in Sources */,
 				B836C697240D99FD002A483D /* MessageExtension.swift in Sources */,
 				B836C68C240D9681002A483D /* Trip.swift in Sources */,
@@ -729,6 +808,7 @@
 				B8868A3B242704F40005A1CD /* AnimatedLoginButton.swift in Sources */,
 				B8C7D5862411B1C00079E62F /* CityPoi.swift in Sources */,
 				B836C682240D95D3002A483D /* ChatService.swift in Sources */,
+				B8E2108124300A8B00D8ABA3 /* SettingsViewModel.swift in Sources */,
 				B897400E242183530007010F /* CityWalkViewController.swift in Sources */,
 				B88FE43B2406442E003942CB /* UserPersonalDataView.swift in Sources */,
 				B836C684240D95F9002A483D /* MessageService.swift in Sources */,
@@ -736,9 +816,12 @@
 				B8BF1F44242193700084F3A4 /* CityWalkService.swift in Sources */,
 				B8500D10241AC2C300C39701 /* Destination.swift in Sources */,
 				B8C7D5842411AEE10079E62F /* CityPOIViewModel.swift in Sources */,
+				B8E2107F24300A7B00D8ABA3 /* SettingsTableViewController.swift in Sources */,
 				B885D7A923FEE80300882E69 /* UserAccountDataView.swift in Sources */,
+				B8E2108E24300B5C00D8ABA3 /* AboutAndInteresetsTableViewCell.swift in Sources */,
 				B8500D17241AC4F000C39701 /* CreateTripExtensionCollectionView.swift in Sources */,
 				B8868A41242968100005A1CD /* CircleSegue.swift in Sources */,
+				B8E21074242C0E3700D8ABA3 /* DestinationCollectionCell.swift in Sources */,
 				B8500D2B241AC5C900C39701 /* CreateTripViewController.swift in Sources */,
 				B84AA56824109D8D006D8C24 /* CategoryCollectionViewCell.swift in Sources */,
 				B8500D27241AC59300C39701 /* DestinationView.swift in Sources */,
@@ -746,6 +829,7 @@
 				B89740142421840D0007010F /* GridViewCell.swift in Sources */,
 				B87BC4D424088CE300D1D430 /* AutocompleteTextFieldView.swift in Sources */,
 				B8EBEF75241829BE00CFBC64 /* TripListViewController.swift in Sources */,
+				B8E21077242C272400D8ABA3 /* MainScreenViewController.swift in Sources */,
 				B8FED65D241C5B5F00B070FA /* StockImage.swift in Sources */,
 				B8EBEF722417461D00CFBC64 /* SearchCompletionViewController.swift in Sources */,
 				B8BF1F4624219C310084F3A4 /* CityWalk.swift in Sources */,
@@ -756,6 +840,7 @@
 				B8EBEF7D24183A5100CFBC64 /* TripTableViewController.swift in Sources */,
 				B84944C723F0D83200A2E335 /* LoginViewModel.swift in Sources */,
 				B836C68A240D9671002A483D /* Chat.swift in Sources */,
+				B8E2107E24300A7B00D8ABA3 /* ProfileViewController.swift in Sources */,
 				B836C68E240D96A6002A483D /* City.swift in Sources */,
 				B80E344A23FE14C700E721F7 /* LoginView.swift in Sources */,
 				B885D7AB23FEF5BB00882E69 /* UserRegisterViewModel.swift in Sources */,
@@ -764,6 +849,7 @@
 				B8CA027524205F5A002880F6 /* TimePickerViewController.swift in Sources */,
 				B836C690240D9809002A483D /* SignInData.swift in Sources */,
 				B84944B023F0B75C00A2E335 /* SceneDelegate.swift in Sources */,
+				B8E2108F24300B5C00D8ABA3 /* SubmitButtonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

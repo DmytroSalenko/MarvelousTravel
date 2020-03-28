@@ -41,7 +41,7 @@ class CityPOIViewModel {
     let isLoaded: Observable<Bool>
     
     init() {
-        locationId = Observable("Paris")
+        locationId = Observable("New_York_City")
         categorySelected = Observable("Popular")
         isLoading = Observable(false)
         isLoaded = Observable(false)

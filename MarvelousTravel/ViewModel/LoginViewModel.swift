@@ -105,4 +105,13 @@ class LoginViewModel {
         }
        })
     }
+    
+    func googleButtonOnTouch(token : String) {
+        client.googleSignIn(token: token) { (token, error) in
+            if let token = token {
+                // put token in user defaults here
+                print("successful google authentication")
+            }
+        }
+    }
 }

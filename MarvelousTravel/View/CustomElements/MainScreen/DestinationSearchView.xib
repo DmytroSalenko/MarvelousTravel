@@ -3,18 +3,99 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DestinationSearchView" customModule="MarvelousTravel" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <rect key="frame" x="0.0" y="0.0" width="374" height="731"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="132" y="110"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8a-ze-W3J">
+                    <rect key="frame" x="10" y="78" width="354" height="200"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="GfQ-hs-V0n"/>
+                        <constraint firstAttribute="width" constant="354" id="SbN-1J-4Vd"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Hey, Name where's your next adventure?">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <font key="NSFont" size="47" name="Futura-Medium"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <size key="shadowOffset" width="2" height="1"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AMT-TW-elp">
+                    <rect key="frame" x="10" y="357" width="374" height="374"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="374" id="AHc-5f-o8R"/>
+                        <constraint firstAttribute="width" constant="374" id="fMB-LM-7dw"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dPR-ah-b6U">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="2IH-uO-v5z"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="B4C-JM-Qrg"/>
+                    </connections>
+                </collectionView>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZm-Pc-Mft">
+                    <rect key="frame" x="10" y="327" width="354" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="354" id="blG-3N-baf"/>
+                        <constraint firstAttribute="height" constant="50" id="rOQ-et-Hdb"/>
+                    </constraints>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular destinations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DK-LW-jZI">
+                    <rect key="frame" x="10" y="331" width="156" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="agE-2h-sc0"/>
+                        <constraint firstAttribute="width" constant="156" id="qsg-3j-prz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <size key="shadowOffset" width="1" height="1"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="AMT-TW-elp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Otd-IZ-N0s"/>
+                <constraint firstItem="AMT-TW-elp" firstAttribute="top" secondItem="9DK-LW-jZI" secondAttribute="bottom" constant="5" id="TnC-Le-5gu"/>
+                <constraint firstItem="9DK-LW-jZI" firstAttribute="leading" secondItem="AMT-TW-elp" secondAttribute="leading" id="WiZ-iE-FKo"/>
+                <constraint firstItem="A8a-ze-W3J" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ZBk-lb-PBW"/>
+                <constraint firstItem="cZm-Pc-Mft" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="aUh-kB-MmV"/>
+                <constraint firstItem="cZm-Pc-Mft" firstAttribute="top" relation="lessThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="327" id="jY7-Tu-P5q"/>
+                <constraint firstItem="A8a-ze-W3J" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="78" id="l42-wN-LXh"/>
+                <constraint firstItem="cZm-Pc-Mft" firstAttribute="top" secondItem="A8a-ze-W3J" secondAttribute="bottom" constant="49" id="lQH-8o-dcd"/>
+                <constraint firstAttribute="bottom" secondItem="AMT-TW-elp" secondAttribute="bottom" id="xWn-AC-5zD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="citiesCollectionView" destination="AMT-TW-elp" id="9yB-mZ-Q2N"/>
+                <outlet property="collectionViewHeightConstraint" destination="AHc-5f-o8R" id="szn-1r-hSW"/>
+                <outlet property="collectionViewLeftConstraint" destination="Otd-IZ-N0s" id="x6e-TF-pqZ"/>
+                <outlet property="helloTextLabel" destination="A8a-ze-W3J" id="vps-ZG-DKe"/>
+                <outlet property="helloTextTopConstraint" destination="l42-wN-LXh" id="AdS-nZ-Rzt"/>
+                <outlet property="popularDestinationsLabel" destination="9DK-LW-jZI" id="ipA-7B-v87"/>
+                <outlet property="searchBarContainer" destination="cZm-Pc-Mft" id="GTa-wc-3ti"/>
+                <outlet property="searchBarToTextConstraint" destination="lQH-8o-dcd" id="qXy-vl-3tR"/>
+                <outlet property="searchBarTopConstraint" destination="jY7-Tu-P5q" id="ztt-hy-NLB"/>
+            </connections>
+            <point key="canvasLocation" x="102.89855072463769" y="165.06696428571428"/>
         </view>
     </objects>
 </document>

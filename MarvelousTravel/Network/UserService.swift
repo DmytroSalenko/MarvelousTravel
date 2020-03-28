@@ -204,8 +204,9 @@ class UserService {
         return body as Data
     }
     
-    func getSingleUser(completion : @escaping (User?, NSError?) -> Void) {
-        guard let url = URL(string: "http://localhost:3000/api/users/5e39f1743c545b2ce181f20d") else {return}
+    func getSingleUser(userId : String, completion : @escaping (User?, NSError?) -> Void) {
+            //5e39f1743c545b2ce181f20d
+        guard let url = URL(string: "http://localhost:3000/api/users/\(userId)") else {return}
             var request = URLRequest(url: url)
             request.httpMethod = "GET"
     //        guard let token = UserDefaults.standard.string(forKey: "accessToken") else {return}
@@ -222,6 +223,8 @@ class UserService {
                         user.email = json["email"].stringValue
                         user.first_name = json["first_name"].stringValue
                         user.last_name = json["last_name"].stringValue
+                        user.interests = json["interests"].stringValue
+                        user.about = json["about"].stringValue
                         for item in json["chats"].arrayValue {
                             user.chats.append(item.stringValue)
                         }
@@ -260,6 +263,28 @@ class UserService {
             }.resume()
         }
     
+    func getRegularPicture(userId : String, completion : @escaping (UIImage?, NSError?) -> Void) {
+        guard let url = URL(string: "http://localhost:3000/api/users/icon/\(userId)") else {
+            return
+        }
+        var request = URLRequest(url: url)
+        request.httpMethod = "GET"
+        let session = URLSession.shared
+        session.dataTask(with: request) {(data, response, error) in
+            if let response = response {
+                print(response)
+            }
+            if let data = data {
+                let image = UIImage(data: data)
+                guard let regular = image else {return}
+                completion(regular, nil)
+            } else {
+                completion(nil, error as! NSError)
+            }
+            
+        }.resume()
+    }
+    
     func fbAuthenticate(data: NSDictionary, accessToken: String, onSuccess: @escaping (AuthenticationResponse)->(), onError: @escaping (Error?) -> ())  throws {
         var request = URLRequest(url: URL(string:"http://localhost:3000/api/auth/facebook/\(accessToken)")!)
         request.httpMethod = "POST"
@@ -282,6 +307,43 @@ class UserService {
                     }
                 } catch {
                     onError(error)
+                }
+            }
+        }
+        task.resume()
+    }
+    
+    func googleSignIn(token : String, completion : @escaping (AuthToken?, NSError?) -> Void) {
+        var request = URLRequest(url:
+              URL(string:"http://localhost:3000/api/googleSign")!)
+        request.httpMethod = "POST"
+        request.addValue("application/json", forHTTPHeaderField:
+                  "Content-Type")
+        let parameters : [String: Any] = [
+            "token" : token
+        ]
+        request.httpBody = try! JSONSerialization.data(withJSONObject: parameters, options: .prettyPrinted)
+        
+        let task = self.urlSession.dataTask(with: request) {
+            (data, response, error) in
+            if let httpResponse = response as? HTTPURLResponse {
+                let statusCode = httpResponse.statusCode
+                do {
+                    let _data = data ?? Data()
+                    if (200...399).contains(statusCode) {
+                        
+                            if let json = try? JSON(data: _data) {
+                                let token = AuthToken()
+                                token.token_type = json["token_type"].stringValue
+                                token.access_token = json["access_token"].stringValue
+                                completion(token, nil)
+                            }
+                        
+                    } else {
+                        completion(nil, error as! NSError)
+                    }
+                } catch {
+                    completion(nil, error as! NSError)
                 }
             }
         }

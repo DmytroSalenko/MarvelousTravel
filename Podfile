@@ -20,5 +20,6 @@ target 'MarvelousTravel' do
   pod 'FBSDKCoreKit/Swift'
   pod 'FBSDKLoginKit/Swift'
   pod 'FBSDKShareKit/Swift'
+  pod 'GoogleSignIn'
 
 end

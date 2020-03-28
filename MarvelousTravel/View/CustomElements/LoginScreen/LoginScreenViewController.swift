@@ -8,6 +8,8 @@
 
 import UIKit
 import AVKit
+import GoogleSignIn
+
 
 class LoginScreenViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
@@ -29,6 +31,10 @@ class LoginScreenViewController: UIViewController, UINavigationControllerDelegat
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+        AppDelegate.visibleViewController = self
+        // Autimatically sign in the user
+        //GIDSignIn.sharedInstance()?.restorePreviousSignIn()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -259,7 +265,12 @@ class LoginScreenViewController: UIViewController, UINavigationControllerDelegat
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "mainScreenTransitionSegue") {
             let castedSegue = segue as! CircleSegue
-            castedSegue.circleOrigin = view.center
+            if loginView!.isLogInSuccessful.value! {
+                castedSegue.circleOrigin = loginView!.loginButton.center
+            } else {
+                // TODO add register scenario
+                print("else")
+            }
         }
     }
 }
